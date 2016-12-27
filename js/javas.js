@@ -1,7 +1,7 @@
 (function(){
 
 var btn = document.querySelector("#getNumbers"),
-    output = document.querySelector("#showNumers");
+    output = document.querySelector("#showNumbers");
 
 
     function getRandom(min, max) {
@@ -31,12 +31,13 @@ var btn = document.querySelector("#getNumbers"),
                         numbers.push(random);
          
         }
-        console.log(numbers);
+
 
         output.value = numbers.join(", ");
 
     }
 
-    btn.onclick = showRandomNumbers();
+    btn.onclick = showRandomNumbers;
+  
 
 })();
