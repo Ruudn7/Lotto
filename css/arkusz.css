@@ -1,0 +1,38 @@
+.center {
+
+    text-align: center;
+}
+
+.top {
+    margin-top: 50px;
+}
+
+.btn{
+    width: 140 px;
+    height: 40px;
+    padding: 0 20px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 10px;
+    background: #687542;
+
+    font: 14px/40px Tahoma, Arial, sans-serif;
+    text-align: center;
+    color: #3F5263;
+
+}
+
+.output {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    padding: 0 20px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 10px;
+    background: #A4D5FF;
+
+    font: 14px/40px Tahoma, Arial, sans-serif;
+    text-align: center;
+    color: #3F5263;
+}
